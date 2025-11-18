@@ -1,0 +1,87 @@
+<!-- Name: M Abdul Muqeet -->
+<!-- Roll No: 25I-2046 -->
+<!-- Section:CY-C -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Table</title>
+<h1 style="text-align: center;">Student Table</h1>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table align="center" border="1" cellpadding="8" cellspacing="0">
+     <thead style="background-color: cadetblue;">
+        <tr>
+            <th style="color: white; font-size: 18px; padding: 10px;">Student ID</th>
+            <th style="color: white; font-size: 18px; padding: 10px;">Name</th>
+            <th style="color: white; font-size: 18px; padding: 10px;">Age</th>
+            <th style="color: white; font-size: 18px; padding: 10px;">Gender</th>
+            <th style="color: white; font-size: 18px; padding: 10px;">Marks</th>
+            <th style="color: white; font-size: 18px; padding: 10px;">City</th>
+        </tr>
+     </thead>
+    <tbody>
+        <tr>
+            <td style="color: rgb(0, 114, 44); font-size: 18px; padding: 10px;">1</td>
+            <td style="color: rgb(0, 114, 44); font-size: 18px; padding: 10px;">Ali</td>
+            <td style="color: rgb(0, 114, 44); font-size: 18px; padding: 10px;">19</td>
+            <td style="color: rgb(0, 114, 44); font-size: 18px; padding: 10px;">Male</td>
+            <td style="color: rgb(0, 114, 44); font-size: 18px; padding: 10px;">50</td>
+            <td style="color: rgb(0, 114, 44); font-size: 18px; padding: 10px;">Rawalpindi</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ahmed</td>
+            <td>18</td>
+            <td style="font-size: 18px;">Male</td>
+            <td>57</td>
+            <td>Rawalpindi</td>    
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Rafay</td>
+            <td>19</td>
+            <td style="font-size: 18px;">Male</td>
+            <td>60</td>
+            <td>Rawalpindi</td>    
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Bilal</td>
+            <td>18</td>
+            <td style="font-size: 18px;">Male</td>
+            <td>55</td>
+            <td>Islamabad</td>    
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Uzair</td>
+            <td>20</td>
+            <td style="font-size: 18px;">Male</td>
+            <td>77</td>
+            <td>Islamabad</td>    
+        </tr>    
+    </tbody>    
+</table>
+<button onclick="showStudentInfo()">Show Student Info</button>
+<button onclick="showLabInfo()">Show Lab Info</button>
+<script>
+    function showStudentInfo() {
+console.log("Displaying student information...");
+window.alert("Hi! M Abdul Muqeet");
+}
+function showLabInfo() {
+console.log("Displaying lab information...");
+window.alert("Hi! M Abdul Muqeet ");
+}
+</script>
+</body>
+</html>
+
+git init 
+git branch -M main
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Ab-Muqeet/mywebpage
+git push -u origin main
